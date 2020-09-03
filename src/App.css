@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +33,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+.ContainerStudent {
+  display: flex;
+  justify-content: left;
+  margin-top: 10px;
+  background-color: grey;
+}
+h5{
+  font-size: small;
+  margin-left: 60px;
+}
+h6{
+  margin-left: 30px;
+  margin-top: 20px;
+  color: rgb(10, 10, 10);
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: rgb(156, 188, 248) 2px 2px 2px;
+}
+.conCard{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.conCardPast{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
 }
