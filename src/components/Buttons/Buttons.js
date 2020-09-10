@@ -1,10 +1,12 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
+
 
 import './buttons.css'
 
 const buttons = () => {
     return (
-        <button>JOIN US</button>
+        <Button variant="primary">JOIN US</Button>
     )
 }
 

@@ -1,5 +1,8 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import './App.css';
+
 
 import Info from './components/Info/Info';
 import Members from './components/Members/Members';
@@ -10,16 +13,16 @@ function App() {
   return (
     <div className="App">
         <Info />
-        <h6>Next MeetUp</h6>
+        <h1>Next MeetUp</h1>
         <InfoMeet />
-        <h6>About MeetUp</h6>
+        <h1>About MeetUp</h1>
         <h5>Come And Meet Other Developers Interested</h5>
         <h5>Twitter : @Ariel_Andalas</h5>
-        <h6>Members</h6>
+        <h1>Members</h1>
         <Members />
-        <h6>Past MeetUp</h6>
+        <h1>Past MeetUp</h1>
         <div className="container">
-        <div className="conCardPast">
+        <div className="containerCards">
         <Cards
           dated="#Date"
           content="Ariel Busy Andalas."
@@ -36,6 +39,9 @@ function App() {
           view="4000"
         />
       </div>
+      </div>
+      <div className="footer">
+        <h6>Copyright Hacktiv8 2020</h6>
       </div>
     </div>
   );
